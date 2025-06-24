@@ -1,0 +1,381 @@
+.text-center h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  color: var(--warna-coklat2);
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #91340c;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.text-center p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.card-body {
+  width: 300px;
+}
+
+/* mode hp */
+@media (max-width: 1000px) {
+  .card-body {
+    width: auto;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body h5 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.card-body p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Fitur Ikon Horizontal */
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.features div {
+  flex: 1 1 30%;
+  min-width: 80px;
+}
+
+.features i {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #dc3545;
+}
+
+/* Tambahkan border kiri dan kanan pada ikon tengah */
+.features div:nth-child(2) i {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* buat .features i di tengah memiliki border kiri dan kanan */
+
+.btn-wa3 {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  /* Warna khas WhatsApp */
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(18, 140, 126, 0.3);
+}
+
+.btn-wa3:hover {
+  background: linear-gradient(135deg, #128c7e, #075e54);
+  transform: scale(1.03);
+  color: white;
+  box-shadow: 0 6px 18px rgba(7, 94, 84, 0.4);
+  text-decoration: none;
+}
+
+.btn-wa3 i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+
+  .text-center h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* css k2  */
+.text-center h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  color: var(--warna-coklat2);
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  color: #91340c;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.text-center p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.card-body {
+  width: auto;
+}
+
+/* mode hp */
+@media (max-width: 1000px) {
+  .card-body {
+    width: auto;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body h5 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.card-body p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Fitur Ikon Horizontal */
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.features div {
+  flex: 1 1 30%;
+  min-width: 80px;
+}
+
+.features i {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #dc3545;
+}
+
+/* Tambahkan border kiri dan kanan pada ikon tengah */
+.features div:nth-child(2) i {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* buat .features i di tengah memiliki border kiri dan kanan */
+
+.btn-wa3 {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  /* Warna khas WhatsApp */
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(18, 140, 126, 0.3);
+}
+
+.btn-wa3:hover {
+  background: linear-gradient(135deg, #128c7e, #075e54);
+  transform: scale(1.03);
+  color: white;
+  box-shadow: 0 6px 18px rgba(7, 94, 84, 0.4);
+  text-decoration: none;
+}
+
+.btn-wa3 i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+
+  .text-center h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* css ke 3 */
+
+.terms-section {
+  background: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #dc3545;
+  position: relative;
+}
+
+.terms-title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #dc3545;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.terms-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.terms-box {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.terms-box h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+.terms-box ul {
+  padding-left: 20px;
+}
+
+.terms-box ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .terms-title {
+    font-size: 2rem;
+  }
+
+  .terms-box {
+    padding: 20px;
+  }
+}
+
+.logo_text3 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffebce !important;
+}
+
+.logo_text4 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #6d3618 !important;
+}
