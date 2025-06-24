@@ -34,6 +34,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -91,7 +93,7 @@
       opacity: 0;
       max-width: 90%;
     }
-  
+
     /* Breadcrumb */
     .breadcrumbs-custom {
       font-size: 1rem;
@@ -320,25 +322,28 @@
 
   <section class="contact-section-keren py-5">
     <div class="container">
-      <div class="text-center mb-5">
+      <div class="text-center mb-5" data-aos="fade-down">
         <h2 class="section-title">Hubungi Kami</h2>
         <p class="section-subtitle">Kami siap membantu Anda 24/7 dengan pelayanan terbaik.</p>
       </div>
 
       <div class="row justify-content-center">
         <!-- Kontak Info -->
-        <div class="col-lg-5 mb-4">
+        <div class="col-lg-5 mb-4" data-aos="fade-right">
           <div class="contact-card shadow-lg p-4 rounded">
             <h4><i class="fas fa-headset text-primary me-2"></i> Layanan Pelanggan</h4>
-            <p class="mt-3">📱 WhatsApp: <a href="https://wa.me/6282144864705" target="_blank" class="contact-link">0821
-                4486 4705</a></p>
+            <p class="mt-3">📱 WhatsApp:
+              <a href="https://wa.me/6282144864705" target="_blank" class="contact-link">0821 4486 4705</a>
+            </p>
             <p>📍 Alamat: Jalan Oebon 3, Jalur 40 – Kupang, NTT</p>
-            <p>✉️ Email: <a href="mailto:troyrental@gmail.com" class="contact-link">troyrental@gmail.com</a></p>
+            <p>✉️ Email:
+              <a href="mailto:troyrental@gmail.com" class="contact-link">troyrental@gmail.com</a>
+            </p>
           </div>
         </div>
 
         <!-- Google Maps -->
-        <div class="col-lg-7 mb-4">
+        <div class="col-lg-7 mb-4" data-aos="fade-left">
           <div class="map-container rounded shadow-sm">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49008672.44131156!2d49.76733370000001!3d-10.18252640000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569b83024b470d%3A0x7b2458128b89f069!2srental%20motor%20kupang%20troy!5e1!3m2!1sid!2sid!4v1750795875435!5m2!1sid!2sid"
@@ -350,7 +355,7 @@
       </div>
 
       <!-- Quotes -->
-      <div class="text-center mt-5">
+      <div class="text-center mt-5" data-aos="zoom-in-up">
         <blockquote class="blockquote">
           <p class="mb-0">✨ <em>Booking mudah, pelayanan ramah, harga bersahabat.</em></p>
           <footer class="blockquote-footer">Yuk, <strong>#JalanBarengTwinsRental</strong> 🚘</footer>
@@ -619,6 +624,13 @@
         stroke="#F96D00" />
     </svg></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // durasi animasi
+      once: true      // animasi hanya sekali
+    });
+  </script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
